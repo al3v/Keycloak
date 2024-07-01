@@ -130,7 +130,7 @@ export TOKEN=$(curl -s --location \
 --data-urlencode 'grant_type=password' | jq -r '.access_token')
 ```
 
-2) my-realm realm is created after connecting keycloak on local, i just skipped that step
+2) my-realm realm was created after connecting keycloak on local, I just skipped that step
 ![image](https://github.com/al3v/Keycloak/assets/73062283/7edfb146-9bd8-45e9-84a7-f6593552c6e0)
 
 
